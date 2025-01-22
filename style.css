@@ -1,35 +1,27 @@
 body {
-    /* Estilos gerais para o corpo da página */
-    font-family: 'Acumin Variable Concept',negrito */
-    margin: 15;
-    background-color: #FF69B4; /* Cor rosa bebê */
-  }
-  img {
-    /* Estilos para todas as imagens */
-    max-width: 100%; /* Faz com que as imagens se ajustem à largura da tela */
-    height: auto; /* Mantém a proporção da imagem */
-    display: block; /* Faz com que cada imagem ocupe uma linha inteira */
-    margin: 0 auto; /* Centraliza as imagens horizontalmente */
-  }
-  <footer>
-<div class="acumin ::view-transition-image-pair" style="transition: opacity 0.3s ease 0s;">
-    <h2>Redes Sociais</h2>
-      <h2>Contato</h2>
-    <p>Entre em contato:</p>
-    <ul>
-      <li>Email: <a href="mailto:julicemivi@gmail.com">julicemivi@gmail.com</a></li>
-      <br> <li>Telefone: <a href="tel:+5548994229718">+55 48 9 9422-9718</a></li>
-      <br> <li><a href="https://wa.me/5548994229718" target="_blank">WhatsApp</a></li>
-    </ul>
-  </div>
-</footer>
-{  /* Seletor para a div com a classe "container" dentro do footer */
-    text-align: center; /* Centraliza o texto */
-  }
-  footer ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centraliza os itens da lista */
-    list-style: none;    /* Remove os marcadores da lista */
-    padding: 0;
-  }
+  font-family: 'Amazone', Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1; /* Ocupa todo o espaço disponível na direção vertical */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #ff00b3;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Amazone';
+}
